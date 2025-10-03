@@ -26,7 +26,7 @@ def delayed_action(tokne, plefeb):
         print(f"racist: {e}")
         
 @app.route("/Client/ExecuteCloudScript", methods=["POST"])
-def Itouchkids():
+def ruffnutters():
     data = request.get_json()
     func_name = data.get("FunctionName", "" )
 
@@ -36,11 +36,11 @@ def Itouchkids():
         return jsonify({"code":200,"status":"OK","data":{"FunctionName":"updatePlayerData","Revision":139,"FunctionResult":{"PlayFabId":"B6338E39C4EB62C7","DataVersion":161,"Data":{"pawpalUnlockedCreatures":{"Value":"[\"oinky_egg\",\"Egg Crown\"]","LastUpdated":"2025-09-26T00:11:51.819Z","Permission":"Private"},"ownedCollectiblesIDs":{"Value":"[\"Egg Incubator\", \"Eggplant\", \"Standard eggplant. \", \"arctail egg\", \"arctail_new_egg\", \"blobble egg\", \"chickle egg\", \"chicky egg\", \"duskor egg\", \"egg\", \"egg_incubator\", \"eggplant\", \"frostfang egg\", \"gleye egg\", \"golden_egg\", \"grublet egg\", \"joltini egg\", \"lurkid egg\", \"mechamite egg\", \"pyropup egg\", \"sapnut egg\", \"scorbi_egg\", \"sharkee egg\", \"shellbrr egg\", \"shroomlet egg\", \"skiddo egg\", \"slinka_egg\", \"spindle egg\", \"sporella egg\", \"starry egg\", \"stumpy_egg\", \"unicorn_egg\"]","LastUpdated":"2025-09-26T00:11:51.819Z","Permission":"Private"},"stashItemsIDs":{"Value":"[\"trophy\",\"gold_bar\",\"pink_unicorn\",\"oinky_egg\",\"Egg Crown\",\"tundrake_golden_egg\"]","LastUpdated":"2025-09-26T00:11:51.819Z","Permission":"Private"},"unlockedItems":{"Value":"[\"oinky_egg\",\"Egg Crown\"]","LastUpdated":"2025-09-26T00:11:51.819Z","Permission":"Private"},"capturedCreaturesInstancesData":{"Value":"[{\"captureDeviceItemID\":\"capture cube granade\",\"isDead\":false,\"itemID\":\"glacitrix\",\"creatureDisplayName\":\"EXPLODINGONTOP\",\"currentLevel\":67676767,\"evolutionPoints\":1,\"shelfIndex\":1,\"variantIndex\":-1,\"instanceID\":\"f3594c21-7aed-4790-bb2c-591ce2034b3c\"},{\"captureDeviceItemID\":\"omega cube\",\"isDead\":false,\"itemID\":\"unicorn\",\"creatureDisplayName\":\"EXPLODINGONTOP\",\"currentLevel\":67676767,\"evolutionPoints\":1,\"shelfIndex\":1,\"variantIndex\":-1,\"instanceID\":\"ae2a0fdf-f7ad-4849-8b8e-89dadacd503b\"}]","LastUpdated":"2025-09-26T00:11:51.819Z","Permission":"Private"},"cosmetics":{"Value":"[\"h_beanie_red\",\"g_wizard\"]","LastUpdated":"2025-09-26T00:11:51.819Z","Permission":"Private"},"playerDailyRewards":{"Value":"{\"nextRewardTime\":\"5250631305535207904\",\"currentStreak\":0}","LastUpdated":"2025-09-26T00:11:51.819Z","Permission":"Private"},"quests":{"Value":"[]","LastUpdated":"2025-09-26T00:11:51.819Z","Permission":"Private"},"incubatorInstancesData":{"Value":"","LastUpdated":"2025-09-26T00:11:51.819Z","Permission":"Private"},"playerColors":{"Value":"","LastUpdated":"2025-09-26T00:11:51.819Z","Permission":"Private"}}},"Logs":[],"ExecutionTimeSeconds":0.0355119,"ProcessorTimeSeconds":0.001133,"MemoryConsumedBytes":14360,"APIRequestsIssued":3,"HttpRequestsIssued":0}})
           
 @app.route("/Client/GetTitleNews", methods=["GET", "POST"])
-def DI8hhhhhhh():
-    return jsonify({"code":200,"status":"OK","data":{"News":[{"Timestamp":"2025-09-11T23:01:37.874Z","NewsId":"e3135317-6164-4371-bb4f-205dc24170e4","Title":"<color=purple>MADE BY THUNDA MADE BY TUHDA/color>"}]}})
+def Crossfoxontopboi():
+    return jsonify({"code":200,"status":"OK","data":{"News":[{"Timestamp":"2025-09-11T23:01:37.874Z","NewsId":"e3135317-6164-4371-bb4f-205dc24170e4","Title":"<color=magenta>CRSFOX ON TOP/color>"}]}})
 @app.route("/Client/GetTitleNews", methods=["GET", "POST"])
-def DIhhhhhhh():
-    return jsonify({"code":200,"status":"OK","data":{"News":[{"Timestamp":"2025-09-11T23:01:37.874Z","NewsId":"e3135317-6164-4371-bb4f-205dc24170e4","Title":"<color=purple><size=5MADE BY THUNDA MADE BY TUHDA</size></color>","Body":"<color=purple><size=5>MADE BY THUNDA MADE BY TUHDA</size></color>"}]}})
+def tungggg():
+    return jsonify({"code":200,"status":"OK","data":{"News":[{"Timestamp":"2025-09-11T23:01:37.874Z","NewsId":"e3135317-6164-4371-bb4f-205dc24170e4","Title":"<color=magenta><size=5>CRSFOX ON TOPPP CRSFOX ON TOPP RUFFNUTTER</size></color>","Body":"<color=magenta><size=5>CRSFOX ON TOPPCRSFOX ON TOPP RUFFNUTTERRR</size></color>"}]}})
 
 @app.route("/")
 def index():
